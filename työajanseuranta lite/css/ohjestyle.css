@@ -1,0 +1,46 @@
+body, tr, td, h1, h2, h3, p, a, footer, header, div, form {
+	padding: 0;
+	margin: 0;
+}
+
+#body {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#mainHeader {
+	margin-top: 50px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+#mainArticle {
+	line-height: 1.5;
+}
+
+#mainArticle header {
+	padding: 10px 0;
+}
+
+#huomio p {
+	text-align: justify;
+	padding: 0 50px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+
+
+#mainFooter {
+	position: relative;
+	border-top: 1px solid #ccc;
+	padding: 50px;
+}
+
+#mainFooter p {
+	text-align: center;
+}

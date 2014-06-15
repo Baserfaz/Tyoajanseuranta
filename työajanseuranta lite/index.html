@@ -1,0 +1,47 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<title>Ty&ouml;ajanseuranta</title>
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css"/>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+		
+		<!--ADD TO ELEMENTS TO HIDE THEM WHEN PRINTING-->
+		<style type="text/css" media="print">
+			.no-print { display: none; }
+		</style>
+	</head>
+	<body id="body">
+		<div id="container">
+			<header id="mainHeader">
+				<h1>Ty&ouml;ajanseuranta</h1>
+				<a href="ohjeet.html" target="_blank" class="no-print">Ohjeet</a>
+			</header>
+			
+			<form id="mainForm">
+			
+				<div id="tyomaarays">
+					<label for="nimi" id="tnimi">Ty&ouml;ntekij&auml;n nimi:</label><input type="text" name="nimi" id="nimi"/><br/>
+				</div>
+				
+				<table id="mainTable">
+					<tr id="mainTr">
+						<td>P&auml;iv&auml;ys</td>
+						<td>Alkoi<br/>klo.</td>
+						<td>P&auml;&auml;ttyi<br/>klo.</td>
+						<td>Ty&ouml;tunnit<br/>(autom.)</td>
+					</tr>
+				</table>
+					<span id="yhteensaText">Yhteens&auml;: <input type="number" id="aikaYhteensa" value="0.00" readonly/></span>
+				
+				
+				<input type="button" value="Laske/p&auml;ivit&auml; ty&ouml;tunnit" id="laskeTyotunnit" class="nappula no-print"/>
+				<input type="button" value="Lis&auml;&auml; rivi" id="uusiRivi" class="nappula no-print"/>
+				<input type="button" value="Poista viimeisin rivi" id="poistaRivi" class="nappula no-print hidden"/>
+				<input type="button" value="Tulosta" id="tulosta" class="nappula no-print"/>
+				<input type="button" value="Reset" id="reset" class="nappula no-print"/>
+			</form>
+		</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tyoaikaseuranta.js"></script>
+	</body>
+</html>

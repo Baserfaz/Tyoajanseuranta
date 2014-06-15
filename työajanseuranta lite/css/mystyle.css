@@ -1,0 +1,99 @@
+body, tr, td, h1, h2, h3, p, a, footer, header, div, form {
+	padding: 0;
+	margin: 0;
+}
+
+#body {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+	background-color:
+}
+
+#container {
+	width: 1100px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+
+#mainHeader h1 {
+	color: #000;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+#mainHeader a {
+	margin-left: 1048px;
+	text-decoration: none;
+}
+
+#tyomaarays {
+	padding: 20px;
+	padding-left: 85px;
+	line-height: 1.5;
+}
+
+#mainForm {
+	border: 1px solid #ccc;
+	position: relative;
+}
+
+#mainTable {
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	width: 900px;
+	margin: 20px auto;
+	margin-top: 0;
+}
+
+#mainTable td {
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+
+#mainTr {
+	text-align: center;
+}
+
+#mainTr td {
+	border-bottom: 1px solid #ccc;
+	
+}
+
+#mainTable td:first-child {
+	border-left: 0;
+}
+
+
+#yhteensaText {
+	margin-left: 840px;
+}
+
+#aikaYhteensa {
+	text-align: center;
+}
+
+/* CLASSES */
+
+.nappula {
+	padding: 5px 25px;
+}
+
+.inputs {
+	text-align: center;
+	margin-left: 25px;
+}
+
+.hidden {
+	visibility: hidden;
+	display: none;
+}
+
+/*RESPONSIVE CODE GOES HERE*/
+@media screen and (max-width: 480px) {
+	
+
+}
+
+
+
